@@ -3,5 +3,5 @@
 	url = https://github.com/Digilent/digilent-vivado-scripts
 [submodule "repo/vivado-library"]
 	path = repo/vivado-library
-	url = https://github.com/Digilent/vivado-library
-	branch = feature/zmod-support
+	url = https://github.com/46cv8/vivado-library
+	branch = feature/zmod_dac_test
