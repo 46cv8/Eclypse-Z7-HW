@@ -225,7 +225,7 @@ proc create_hier_cell_ZmodDAC_0 { parentCell nameHier } {
   # Create instance: AXI_ZmodDAC1411_v1_0_0, and set properties
   set AXI_ZmodDAC1411_v1_0_0 [ create_bd_cell -type ip -vlnv natinst.com:user:AXI_ZmodDAC1411_v1_0:1.0 AXI_ZmodDAC1411_v1_0_0 ]
   set_property -dict [ list \
-   CONFIG.kBufferSize {16} \
+   CONFIG.kBufferSize {17} \
  ] $AXI_ZmodDAC1411_v1_0_0
 
   # Create instance: ZmodDAC1411_Controll_0, and set properties
@@ -243,7 +243,7 @@ proc create_hier_cell_ZmodDAC_0 { parentCell nameHier } {
    CONFIG.c_include_s2mm {0} \
    CONFIG.c_include_sg {0} \
    CONFIG.c_sg_include_stscntrl_strm {0} \
-   CONFIG.c_sg_length_width {18} \
+   CONFIG.c_sg_length_width {19} \
  ] $axi_dma_1
 
   # Create interface connections
